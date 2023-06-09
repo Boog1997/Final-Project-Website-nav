@@ -1,0 +1,96 @@
+nav ul 
+{
+    float:center;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li
+{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: goldenrod;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+a.active,
+a:hover
+{
+    background:green;
+    transition: .5s;
+}
+
+h1
+{
+color:orangered; 
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2
+{color: rgb(8, 131, 8); 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3
+{color: rgb(8, 131, 8); 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h4
+{color: rgb(211, 39, 67);
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p
+{
+    text-align:right;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: gold;
+}
+body
+{
+    /*
+    background-color: plum;
+    background-image: linear-gradient(red, yellow);
+    background-image:radial-gradient(#f79090, #9198e5);
+    */
+    
+
+    background-image: url("hawk.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+button 
+{
+    padding: 16px,30px;
+    margin: 12px,6px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color:blueviolet;
+    border-style: double;
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    color: rgb(36, 128, 0);
+    cursor:pointer;
+    background-color: goldenrod;
+    background-image:radial-gradient(rgb(255, 0, 0),(144, 148, 144));
+    height: 40px;
+    width: 75px;
+}
+

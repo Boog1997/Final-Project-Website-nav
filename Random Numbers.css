@@ -1,0 +1,76 @@
+
+nav ul 
+{
+    float:center;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li
+{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: goldenrod;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+a.active,
+a:hover
+{
+    background:green;
+    transition: .5s;
+}
+
+h1
+{
+    color:orangered; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2
+{color: rgb(8, 255, 8); 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+button
+{
+    padding: 16px,30px;
+    margin: 12px,6px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color:blueviolet;
+    border-style: double;
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    color: rgb(36, 128, 0);
+    cursor:pointer;
+    background-color:rgb(226, 135, 151);
+    background-image:radial-gradient(rgb(255, 0, 0),(144, 148, 144));
+    height: 75px;
+    width: 90px;
+}
+body
+{
+    background-image: url("hawk.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+p
+{
+    text-align:right;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}

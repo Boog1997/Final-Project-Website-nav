@@ -1,0 +1,37 @@
+<!--Terry Shade Assignment 4.1 Event Driven Programming-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--The two tags below (the link and script) tags tie the functions and style sheet to the html page-->
+    <link rel = "stylesheet" href = "buttonCtrl.css">
+    <script src="buttonCtrl.js"></script>
+    <title>Button Controll</title>
+</head>
+<body> 
+    <nav> 
+    
+        <ul>  
+         <li><a href="index pg.html">Hawk Missile</a></li>
+         <li><a href="tables.html">Home</a></li>
+         <li><a href="strings.html">palindrome checker</a></li>
+         <li><a href="Random Numbers.html">numbers game</a></li>
+         <li><a href="loops.html">sound</a></li>
+         <li><a href="Game.html">countdown</a></li>
+         </ul>
+     
+ </nav>
+    <center>
+    <h1>`Scary Angrybirds`</h1>
+    <h2>~fly away fast~</h2>
+    <!--below are the buttons use on the webpage to start and stop img movement-->
+    <button id = "startButton"onclick = "countdown();">Start imgMeme</button>
+    <button id = "stopButton" onclick = "stopmeme();">Stop imgMeme</button>
+    </center>
+<img src="angryBird.webp" id="imgMeme" style="position:absolute; left:100; top:100; width:200px;">
+    
+</body>
+
+</html>

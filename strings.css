@@ -1,0 +1,80 @@
+
+nav ul 
+{
+    float:center;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li
+{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: goldenrod;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+a.active,
+a:hover
+{
+    background:green;
+    transition: .5s;
+}
+
+h1
+{
+    color: rgb(230, 102, 123);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2
+{
+    color:rgb(106, 5, 201); 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3
+{
+    color: rgb(173, 77, 8);
+    font-size: 20px;
+    
+}
+h4
+{
+    text-align:right;
+    color:rgb(230, 102, 123); 
+}
+body
+{
+    background-image: url("Uat\ meme.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+p
+{
+    text-align: center;
+}
+button
+{
+    padding: 16px,30px;
+    margin: 12px,6px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgb(255, 69, 0);
+    border-style:inset;
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia;
+    font-weight:bolder;
+    cursor:pointer;
+    background-color: goldenrod;
+    height: 40px;
+    width: 80px;
+}
