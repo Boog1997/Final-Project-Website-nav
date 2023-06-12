@@ -1,0 +1,54 @@
+/*Terry Shade, Assignment 3.2 User Input Validation*/
+h1
+{
+    color:orange; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2
+{
+    color:aqua; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3
+{
+    color:orange;
+    font-size: 30px; 
+    text-align: center;  
+}
+body
+{
+    background-image: url("space1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+p
+{
+    text-align: right;
+}
+button
+{
+    padding: 16px,30px;
+    margin: 12px,6px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style:inset;
+    border-color: aquamarine;
+    text-align:center;
+    color:black;
+    font-size:12px;
+    font-family: Georgia;
+    font-weight:bolder;
+    cursor:pointer;
+    background-color:rgb(82, 153, 10);
+    height: 40px;
+    width: 80px;
+}
+
+footer
+{
+    color: rgb(224, 26, 135);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;  
+}

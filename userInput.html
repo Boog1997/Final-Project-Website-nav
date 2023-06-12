@@ -1,0 +1,45 @@
+<!--Terry Shade, Assignment 3.2 User Input Validation-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "userInput.css">
+    <!--Above link , links to the ".css "stylesheet-->
+    <script src = "userInput.js"></script>
+    <!--Above link , links to the "html" to the "javascript page"-->
+    <!--The javascript page runs all the functions needed for the program to work on the html page.-->
+    <title>User Input</title>
+</head>
+
+<body>
+    <h1><div id = "UserStatus">Summer Event Registration!</div></h1>
+    <!--the above "UserStatus" is where, if the conditions are meet on the "JS" page , the place on the html page where"Summer Event Registration!"is located , will be update by the"document.getElementById("UserStatus").innerHTML =-->
+    <h2>*Enter User Info for a chance to Win*</h2>
+    <form id = "eventCheck" onsubmit = "return false">
+        <h2>  
+        UserName: <input type = "text" id  = "UserName"/>
+        Password: <input type = "text" id = "Password"/><br>
+        Zipcode: <input type = "number" id = "zipnum"/><br><br>
+        <button input type = "submit" onclick = "checkCreds()">Enter to Win</button> 
+        <!--the above button , after clicked on, will call the "checkcreds" function to run the program that will validate user input located on the "userInput.js" page. -->
+        </h2>
+       </form>
+
+    <p>
+        <img id="memeImage" src="UAT_Shield_Logo.png" height="50px", width="50px">
+    </p>
+    <h3> ~Click <a href = "https://youtu.be/2IB45v7P6Ow"> here </a> for the final frontier~</h3>
+    <center> 
+        <h4><footer>
+        Terry Shade<br>
+        University Of Advancing Technology<br>
+        2625 W Baseline Rd,<br>
+        Tempe, AZ 85283<br>
+        (800) 658-5744<br>
+        </footer></h4> 
+    </center>
+</body>
+
+</html>
