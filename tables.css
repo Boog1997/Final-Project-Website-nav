@@ -1,0 +1,64 @@
+
+/*nav
+{
+    background: pink;
+    height: 65px;
+    width: 100%;
+}
+*/
+nav ul 
+{
+    float:center;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li
+{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: goldenrod;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+a.active,
+a:hover
+{
+    background:green;
+    transition: .5s;
+}
+
+h1
+{
+    color: rgb(224, 26, 135);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h2
+{
+    color: rgb(224, 26, 135);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+body
+{
+    background-image: url("hunter.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+footer
+{
+    color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;  
+}
